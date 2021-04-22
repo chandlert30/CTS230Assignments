@@ -1,7 +1,7 @@
 body {
     color:seashell;
     background-color:lightblue;
-    font-size:1.5em;
+    font-size:2em;
     font-weight:light;
     font-family:Cambria;
 }
@@ -17,6 +17,6 @@ h2 {
 }
 
 a:link {
-  color:darkgreen;
+  color:orange;
 }
 

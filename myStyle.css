@@ -1,13 +1,13 @@
 body {
-    color:seashell;
-    background-color:lightblue;
+    color:Black;
+    background-color:seashell;
     font-size:2em;
     font-weight:light;
     font-family:Cambria;
 }
 
 h1 {
-    color:peachpuff;
+    color:Black;
 }
 h2 {
   font-style:italic;

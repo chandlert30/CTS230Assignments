@@ -18,5 +18,7 @@ h2 {
 
 a:link {
   color:orange;
+  border: o.2em blue solid;
+  margin: 0;
 }
 

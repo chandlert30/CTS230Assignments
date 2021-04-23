@@ -4,24 +4,39 @@ body {
     font-size:1.5em;
     font-weight:light;
     font-family:Cambria;
-    border:cyan dotted;
+    border: 0.2em cyan;
     width: fit-content;
     margin: 0
 }
 
-h1 {
+h1, h2 {
     color:Black;
+    font-style:italic;
+    font-size:1.5em;
+    width: fit-content;
 }
-h2 {
-  font-style:italic;
-  font-size:1.5em;
-  width: fit-content;
+
+p strong {
+  color:darkgrey;
+}
+
+p.intro {
+  font-style: strong;
+}
+
+p.conclusion {
+  font-style: italic;
+}
+
+img#img1100 {
+  width:10%;
+}
   
-}
+
 
 a:link {
   color:orange;
-  border: o.2em blue solid;
+  border: 0.2em blue solid;
   margin: 0
 }
 

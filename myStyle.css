@@ -32,14 +32,31 @@ p.conclusion {
 }
 
 img#img1100 {
-  width:50%;
+  width:25%;
   float: left;
 }
   
 div#content{
   display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
+div.flexible {
+  display:flex;
+  width: fit-content;
+  height: fit-content;
+  border:0.2em purple solid;
+  justify-content:space-around;
+}
+
+div.edible {
+  display:flex;
+  width:fit-content;
+  height: fit-content;
+  border: 0.2em gold solid;
+  justify-content:space-around
+}
 
 a:link {
   color:orange;

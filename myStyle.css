@@ -39,7 +39,7 @@ img#img1100 {
 div#content{
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 div.flexible {
@@ -47,7 +47,7 @@ div.flexible {
   width: fit-content;
   height: fit-content;
   border:0.2em purple solid;
-  justify-content:space-around;
+  justify-content:space-between;
 }
 
 div.edible {
@@ -55,9 +55,15 @@ div.edible {
   width:fit-content;
   height: fit-content;
   border: 0.2em gold solid;
-  justify-content:space-around
+  justify-content:space-between;
 }
-
+div.bottom {
+  display:flex;
+  width:fit-content;
+  height:max-content;
+  border:0.2em royalblue dotted;
+  justify-content: left;
+}
 a:link {
   color:orange;
   border: 0.2em blue solid;

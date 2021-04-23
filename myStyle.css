@@ -22,21 +22,18 @@ p strong {
 
 p.intro {
   font-style: italic;
-  border:0.2em orangered;
-  height: 0.2em;
-  padding: 10px;
+  
 
 }
 
 p.conclusion {
   font-style: italic;
-  border: 0.5em orange;
-  height: 0.2em;
-  padding: 20px;
+  
 }
 
 img#img1100 {
-  width:10%;
+  width:50%;
+  float: left;
 }
   
 

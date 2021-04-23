@@ -36,6 +36,9 @@ img#img1100 {
   float: left;
 }
   
+div#content{
+  display: flex;
+}
 
 
 a:link {

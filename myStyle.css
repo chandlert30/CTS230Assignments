@@ -37,6 +37,12 @@ img#img1100 {
   height:350;
   float: left;
 }
+
+img#img20 {
+  width: 50;
+  height: 50;
+float:right;
+}
   
 div#content{
   display: flex;
@@ -89,9 +95,13 @@ img.float {
   margin-right: auto;
   margin-left: auto;
 }
- div.content {
-   display:none;
-   width: 50%;
+ header {
+   background-color: red;
+ }
+ 
+
+ footer{
+   background-color: blue;
  }
 p.intro {
   font-style:oblique;
@@ -102,4 +112,12 @@ p.conclusion {
   font-size:medium
 }
 
+}
+
+/* CSS media query that changes the font size of the navigation elements to a fixed value when the screen size is less than 1200px */
+
+@media screen and (max-width:1200px) {
+  div.content {
+    font-size: 0.9em;
+  }
 }

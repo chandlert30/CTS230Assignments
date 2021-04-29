@@ -6,6 +6,7 @@ thebutton = document.getElementById("thebutton");
 otheritem = document.getElementById("buttontest");
 thebutton.addEventListener("click", onButtonClick);
 
+
 yessir = document.getElementById("yessir");
 manitem = document.getElementById("buttonyear");
 yessir.addEventListener("click", onClick);
@@ -16,6 +17,15 @@ textentry.addEventListener("change", onChange);
 function onChange() {
     newtext = myinput.value;
     otheritem.innerHTML = newtext;
+}
+
+images1 = document.getElementById("images1")
+anotheritem = document.getElementById("Ali")
+Images1 = addEventListener("click",onClickImage);
+
+function onClickImage() {
+    anotheritem.style.width = "1000";
+    anotheritem.style.height = "1000";
 }
 
 

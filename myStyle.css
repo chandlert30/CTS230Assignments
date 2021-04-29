@@ -6,7 +6,8 @@ body {
     font-family:Cambria;
     border: 0.2em cyan;
     width: fit-content;
-    margin: 0
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 h1, h2 {
@@ -32,7 +33,8 @@ p.conclusion {
 }
 
 img#img1100 {
-  width:25%;
+  width:450;
+  height:350;
   float: left;
 }
   
@@ -68,5 +70,36 @@ a:link {
   color:orange;
   border: 0.2em blue solid;
   margin: 0
+
+
+
+
 }
 
+/* Add a CSS media query that reduces the margin-size when the window is narrow */
+@media (max-width: 750px) {
+  body {
+margin-left: 5%;
+margin-right: 5%;
+  }
+
+img.float {
+  float:none;
+  width:auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+ div.content {
+   display:none;
+   width: 50%;
+ }
+p.intro {
+  font-style:oblique;
+  font-size: medium;
+}
+p.conclusion {
+  font-style:oblique;
+  font-size:medium
+}
+
+}
